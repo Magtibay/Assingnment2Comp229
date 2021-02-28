@@ -30,7 +30,7 @@
     "passport-mongoose": "^0.0.1",
     "popper.js": "^1.16.1"
   },
-  "description": "Assignment1Comp229",
+  "description": "Assignment2Comp229",
   "main": "server.js",
   "repository": {
     "type": "git",
