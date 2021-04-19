@@ -18,7 +18,7 @@
                        <tr class="d-flex"> 
                           <th class="text-center col-2">Name</th>
                            <th class="text-center col-2">Author</th> 
-                           <th class="text-center col-1">Published</th> 
+                           <th class="text-center col-2">Published</th> 
                            <th class="col-6">Description</th> 
                            <th class="text-center col-1">Price</th>  
                            <% if(typeof displayName == 'string' && displayName) { %>
@@ -32,7 +32,7 @@
                               <tr class="d-flex"> 
                                  <td class="text-center col-2"><%=BookList[count].name %></td> 
                                  <td class="text-center col-2"><%=BookList[count].author %></td> 
-                                 <td class="text-center col-1"><%=BookList[count].published %></td> 
+                                 <td class="text-center col-2"><%=BookList[count].published %></td> 
                                  <td class="col-6"><%=BookList[count].description %></td> 
                                  <td class="text-center col-1"><%=BookList[count].price %></td> 
                                  <td class="text-center col-1">
